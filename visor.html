@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visor de Imágenes</title>
+    <link rel="stylesheet" href="visor.css">
+</head>
+<body>
+
+    <div class="visor">
+        <img id="imagenGrande" src="img1.jpg" alt="Imagen grande">
+    </div>
+
+    <div class="miniaturas">
+        <img class="miniatura" src="img1.jpg" alt="Imagen 1" onclick="cambiarImagen('img1.jpg')">
+        <img class="miniatura" src="img2.jpg" alt="Imagen 2" onclick="cambiarImagen('img2.jpg')">
+        <img class="miniatura" src="img3.jpg" alt="Imagen 3" onclick="cambiarImagen('img3.jpg')">
+        <img class="miniatura" src="img4.jpg" alt="Imagen 4" onclick="cambiarImagen('img4.jpg')">
+    </div>
+
+    <script src="visor.js"></script>
+</body>
+</html>

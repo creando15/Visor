@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.visor {
+    width: 600px;
+    height: 400px;
+    margin: 20px auto;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.visor img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.miniaturas {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.miniatura {
+    width: 100px;
+    height: 70px;
+    cursor: pointer;
+    border: 2px solid gray;
+    transition: transform 0.3s ease;
+}
+
+.miniatura:hover {
+    transform: scale(1.1);
+}
